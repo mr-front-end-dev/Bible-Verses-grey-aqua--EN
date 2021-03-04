@@ -17,9 +17,17 @@
   padding: 5px;
 }
 
-
-.section--bold{
+.section--bold {
   font-weight: bold;
+}
+
+.section__button--underscore {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(180, 100%, 45%);
+  border-style: none;
+  font-size: 14px;
+  padding: 8px;
+  margin: 5px;
 }
 
 .section__button {
@@ -32,11 +40,11 @@
 }
 
 .section__button:hover {
-  background-color: hsl(180, 100%, 50%);
+  background-color: hsl(180, 100%, 40%);
 }
 
 .section__button:active {
-  background-color: hsl(180, 100%, 40%);
+  background-color: hsl(180, 100%, 50%);
 }
 
 .section__button--link {
